@@ -6,6 +6,9 @@
     <meta name="description" content="Personal Profile page of Fareeda">
     <title>Fareeda's Profile</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="icon" href="icon.ico" type="image/x-icon">
 </head>
 <body>
@@ -27,7 +30,7 @@
         <section>
             <h2>Contact Information</h2>
             <p>Let's connect!</p>
-            <p><a href="mailto:fareeda6688@gmail.com">Send me an email</a> | <a href="https://www.linkedin.com/feed/">LinkedIn</a></p>
+            <p><a id="icon-link" href="mailto:fareeda6688@gmail.com"><i id="email-icon" class="fa-solid fa-square-envelope"></i></a> | <a id="icon-link"  href="https://www.linkedin.com/feed/"><i id="linked-icon" class="fa-brands fa-linkedin"></i></a></p>
         </section>
         <hr>
 
@@ -57,13 +60,13 @@
             <h2>Contact Me</h2>
                 <form>
                     <label for="name" >Name:</label>
-                    <input type="text" id="name" name="name"><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your full Name"><br>
                     <br>
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email"><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your Email"><br>
                     <br>
                     <label for="message">Message:</label>
-                    <textarea id="message" name="message"></textarea>
+                    <textarea id="message" name="message" placeholder="Enquairy"></textarea>
                     <br>
                     <button type="submit">Send</button>
                 </form>
